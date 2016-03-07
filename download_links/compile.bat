@@ -1,0 +1,1 @@
+zip -r ../download_links.xpi *
