@@ -25,7 +25,7 @@
     "default_popup": "popups/popup.html"
   },
   
-  "options_page": "options.html",
+  "options_page": "popups/options.html",
   "optional_permissions": ["http://api.stackoverflow.com/"],
   "manifest_version": 2
 
