@@ -1,1 +1,1 @@
-zip -r ../extension-questions.xpi *
+zip -r ../template-extension.xpi *
