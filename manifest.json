@@ -1,12 +1,11 @@
 {
-
-  "description": "A browser extension to check a list of sites for CDN compliance",
-  "manifest_version": 2,
-  "name": "CDN Checker",
-  "version": "1.0",
+  "description": "Simple GCWEB style extension template",  "version": "0.3",
+  "name": "Extension Template",  "version": "1.0",
   "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
   "icons": {
-    "48": "icons/beasts-48.png"
+    "128": "images/icon.png",
+    "48": "images/icon.png",
+    "16": "images/icon.png"
   },
 
   "applications": {
@@ -22,15 +21,12 @@
   ],  
 
   "browser_action": {
-    "default_icon": "icons/WET_Logo-32.png",
-    "default_title": "CDN Checker",
-    "default_popup": "popup/choose_beast.html"
+    "default_icon": "images/icon.png",
+    "default_popup": "popups/popup.html"
   },
   
-  "web_accessible_resources": [
-    "beasts/frog.jpg",
-    "beasts/turtle.jpg",
-    "beasts/snake.jpg"
-  ]
+  "options_page": "options.html",
+  "optional_permissions": ["http://api.stackoverflow.com/"],
+  "manifest_version": 2
 
 }

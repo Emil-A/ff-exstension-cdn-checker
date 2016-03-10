@@ -1,5 +1,5 @@
 /*
-beastify():
+action():
 * removes every node in the document.body,
 * then inserts the chosen beast
 * then removes itself as a listener 

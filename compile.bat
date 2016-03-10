@@ -1,1 +1,1 @@
-zip -r ../beastify.xpi *
+zip -r ../extension-questions.xpi *
