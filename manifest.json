@@ -1,32 +1,34 @@
 {
-  "description": "Simple GCWEB style extension template",  "version": "0.3",
-  "name": "Extension Template",  "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
-  "icons": {
-    "128": "images/icon.png",
-    "48": "images/icon.png",
-    "16": "images/icon.png"
-  },
+	"description": "Simple GCWEB style extension template",
+	"name": "Extension Template",
+	"version": "1.0",
+	"homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+	"icons": {
+		"128": "images/icon.png",
+		"48": "images/icon.png",
+		"16": "images/icon.png"
+	},
+	
+	
+	"applications": {
+		"gecko": {
+			"id": "beastify@mozilla.org",
+			"strict_min_version": "45.0.0"
+		}
+	},
 
-  "applications": {
-    "gecko": {
-      "id": "beastify@mozilla.org",
-      "strict_min_version": "45.0.0"
-    }
-  },
+	"permissions": [
+		"activeTab",
+		"webRequest"
+	],  
 
-  "permissions": [
-    "activeTab",
-	"webRequest"
-  ],  
-
-  "browser_action": {
-    "default_icon": "images/icon.png",
-    "default_popup": "popups/popup.html"
-  },
+	"browser_action": {
+		"default_icon": "images/icon.png",
+		"default_popup": "popups/index-en.html"
+	},
   
-  "options_page": "popups/options.html",
-  "optional_permissions": ["http://api.stackoverflow.com/"],
-  "manifest_version": 2
+  
+
+	"manifest_version": 2
 
 }
