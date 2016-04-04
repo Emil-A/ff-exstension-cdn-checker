@@ -9,6 +9,7 @@
 		"16": "images/icon.png"
 	},
 	
+	"default_locale": "en",
 	
 	"applications": {
 		"gecko": {
